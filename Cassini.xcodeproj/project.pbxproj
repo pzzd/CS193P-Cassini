@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C696C75E219217BA00CC8CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C696C75D219217BA00CC8CB4 /* AppDelegate.swift */; };
-		C696C760219217BA00CC8CB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C696C75F219217BA00CC8CB4 /* ViewController.swift */; };
 		C696C763219217BA00CC8CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C696C761219217BA00CC8CB4 /* Main.storyboard */; };
 		C696C765219217BC00CC8CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C696C764219217BC00CC8CB4 /* Assets.xcassets */; };
 		C696C768219217BC00CC8CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C696C766219217BC00CC8CB4 /* LaunchScreen.storyboard */; };
+		C696C77321923E3A00CC8CB4 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C696C77221923E3A00CC8CB4 /* ImageViewController.swift */; };
+		C696C77521923E8B00CC8CB4 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C696C77421923E8B00CC8CB4 /* DemoURLs.swift */; };
+		C696C7772192406B00CC8CB4 /* stanford.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C696C7762192406B00CC8CB4 /* stanford.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C696C75A219217BA00CC8CB4 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C696C75D219217BA00CC8CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C696C75F219217BA00CC8CB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C696C762219217BA00CC8CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C696C764219217BC00CC8CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C696C767219217BC00CC8CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C696C769219217BC00CC8CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C696C77221923E3A00CC8CB4 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		C696C77421923E8B00CC8CB4 /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
+		C696C7762192406B00CC8CB4 /* stanford.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stanford.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		C696C75C219217BA00CC8CB4 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				C696C75D219217BA00CC8CB4 /* AppDelegate.swift */,
-				C696C75F219217BA00CC8CB4 /* ViewController.swift */,
+				C696C77221923E3A00CC8CB4 /* ImageViewController.swift */,
 				C696C761219217BA00CC8CB4 /* Main.storyboard */,
-				C696C764219217BC00CC8CB4 /* Assets.xcassets */,
-				C696C766219217BC00CC8CB4 /* LaunchScreen.storyboard */,
+				C696C77421923E8B00CC8CB4 /* DemoURLs.swift */,
+				C696C7762192406B00CC8CB4 /* stanford.jpeg */,
+				C696C76F219217D000CC8CB4 /* Supporting Files */,
 				C696C769219217BC00CC8CB4 /* Info.plist */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		C696C76F219217D000CC8CB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C696C75D219217BA00CC8CB4 /* AppDelegate.swift */,
+				C696C764219217BC00CC8CB4 /* Assets.xcassets */,
+				C696C766219217BC00CC8CB4 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,7 @@
 			files = (
 				C696C768219217BC00CC8CB4 /* LaunchScreen.storyboard in Resources */,
 				C696C765219217BC00CC8CB4 /* Assets.xcassets in Resources */,
+				C696C7772192406B00CC8CB4 /* stanford.jpeg in Resources */,
 				C696C763219217BA00CC8CB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C696C760219217BA00CC8CB4 /* ViewController.swift in Sources */,
+				C696C77321923E3A00CC8CB4 /* ImageViewController.swift in Sources */,
 				C696C75E219217BA00CC8CB4 /* AppDelegate.swift in Sources */,
+				C696C77521923E8B00CC8CB4 /* DemoURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
